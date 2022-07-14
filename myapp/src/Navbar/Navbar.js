@@ -18,19 +18,19 @@ function Navbar() {
     <div className="menu-link">
         <ul>
             <li>
-                <a href="***">Home</a>
+                <a href="./home">Home</a>
             </li>
             <li>
-                <a href="***">Planning</a>
+                <a href="./Planning">Planning</a>
             </li>
             <li>
-                <a href="***">Attraction</a>
+                <a href="Attraction">Attraction</a>
             </li>
             <li>
-                <a href="***">Travel Blogs</a>
+                <a href="TaavelBlogs">Travel Blogs</a>
             </li>
             <li>
-                <a href="***">About us</a>
+                <a href="AboutUs">About us</a>
             </li>
         </ul>
 
