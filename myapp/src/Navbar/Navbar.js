@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -16,29 +17,31 @@ function Navbar() {
 
 
     <div className="menu-link">
+
+
         <ul>
             <li>
-                <a href="./home">Home</a>
+                <Link to = {"/"}>Home</Link>
             </li>
             <li>
-                <a href="./Planning">Planning</a>
+                <Link to ="/Planning">Planning</Link>
             </li>
             <li>
-                <a href="Attraction">Attraction</a>
+                <Link to ="/Attraction">Attraction</Link>
             </li>
             <li>
-                <a href="TaavelBlogs">Travel Blogs</a>
+                <Link to ="/TravelBlogs">TravelBlogs</Link>
             </li>
             <li>
-                <a href="AboutUs">About us</a>
+                <Link to ="/AboutUs">About us</Link>
+            </li>
+            <li>
+                <Link to ="/Signin">SignIn</Link>
             </li>
         </ul>
 
     </div>
   </nav>
-  <section className="hero-section">
-    <p>Welcome to Travelers app</p>
-  </section>
     </>
   )
 }
