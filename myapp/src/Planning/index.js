@@ -1,11 +1,12 @@
 export default function Planning() {
   return (
-    <p>
-      Welcome to Planning component
-      <p>Welcome to Planning component</p>
-      <p>Welcome to Planning component</p>
-      <p>Welcome to Planning component</p>
-      <p>Welcome to Planning component</p>
-    </p>
+    <div>
+      {" "}
+      <p>Please select the type of traveler you are</p>
+      <div>Mountain man</div>
+      <div>History lover </div>
+      <div>Religious yatri </div>
+      <div>The party and beach lover</div>
+    </div>
   );
 }
