@@ -24,7 +24,8 @@ li {
   width: 100%;
   height: 7rem;
   display: grid;
-  background-color: #f3f2ee;
+  background-color: #007185;
+  
   grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -42,7 +43,7 @@ li {
   padding: 15px;
   background: #ffd301;
   font-weight: 500;
-  color: #333;
+  color: whitesmoke;
   cursor: pointer;
 }
 
@@ -102,7 +103,7 @@ li {
 
 .menu-link ul li a {
   text-transform: capitalize;
-  color: rgba(0, 0, 3, 0.8);
+  color: white;
   transition: 0.5s;
 }
 .menu-link ul li:hover > a {

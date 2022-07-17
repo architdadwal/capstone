@@ -26,16 +26,19 @@ function App() {
           <Route path="/SignIn" element={<SignIn />} />
         </Routes>
       </BrowserRouter>
+      
       {/* <BrowserRouter> */}
       <section className="hero-section"></section>
       {/* <AppRouter /> */}
       <Attraction />
       <TravelBlogs />
       <AboutUs />
+      
       {/* </BrowserRouter> */}
       <Footer />
     </>
   );
 }
+
 
 export default App;

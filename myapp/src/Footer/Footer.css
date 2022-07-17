@@ -1,6 +1,6 @@
 footer {
     bottom: 0;
-    background-color: #faf6e1;
+    background-color: #007185;
     align-items: center;
     position: fixed;
     display: flex;
@@ -12,6 +12,6 @@ footer {
     padding: 5px;
     width: 100px;
     height: 50px;
-    color: black;
+    color: white;
   }
   
