@@ -7,16 +7,15 @@ import Attraction from "./Attraction/Attraction";
 import TravelBlogs from "./TravelBlogs/TravelBlogs";
 import AboutUs from "./AboutUs/AboutUs";
 import Home from "./Home/Home";
-import Planning from "./Planning";
+import Planning from "./Planning/planning";
 import SignIn from "./SignIn/SignIn";
 
 // import {BrowserRouter} from 'react-router-dom';
 function App() {
   return (
     <>
-     
       <BrowserRouter>
-      <Navbar />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/planning" element={<Planning />} />
