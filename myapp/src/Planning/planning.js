@@ -21,7 +21,7 @@ export default function Planning() {
           <div class="d">Religious yatri </div>
         </Link>
         <Link to={"/party"}>
-          <div class="e">The party and beach lover</div>
+          <div class="e">beach lover</div>
         </Link>
       </div>
     </>

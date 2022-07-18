@@ -9,6 +9,7 @@ import AboutUs from "./AboutUs/AboutUs";
 import Home from "./Home/Home";
 import Planning from "./Planning/planning";
 import SignIn from "./SignIn/SignIn";
+import Mountains from "./Planning/Mountains";
 
 // import {BrowserRouter} from 'react-router-dom';
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Attraction" element={<Attraction />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/SignIn" element={<SignIn />} />
+          <Route path="/mountains" element={<Mountains />} />
         </Routes>
       </BrowserRouter>
       {/* <BrowserRouter> */}
