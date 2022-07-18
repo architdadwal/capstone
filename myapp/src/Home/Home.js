@@ -1,5 +1,4 @@
-import React from "react";
-
+import React from "react";   
 // import { Input, Badge, makeStyles } from "@material-ui/core";
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
@@ -41,19 +40,11 @@ function Home() {
         ))}
       </Slide>
     </div>
-    <div>
-    {/* <Input
-          placeholder="🔍  Search"
-          style={{
-            alignContent: "center",
-            alignItems: "center",
-            width: "200px",
-            height: "50px",
-            fontSize: "20px",
-            border: "px",
-            marginLeft: "200px",
-          }}
-        /> */}
+    <div className="templeteContainer">
+      <div className="searchInput_Container">
+        <input id="searchInput" type="text" placeholder="Search here..."/>
+      </div>
+ 
         </div>
     </>
   );
