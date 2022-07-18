@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./religious.css";
 
-function religious() {
+function Religious() {
   return (
     <>
-      <div>
+      <div class="aa">
         <p>
           If you want to take time to spend some time in peace and visit these
           places
@@ -16,7 +17,7 @@ function religious() {
         </Link>
 
         <Link to={"/banaras"}>
-          <div class="m"></div>
+          <div class="m">banaras</div>
         </Link>
         <Link to={"/puri"}>
           <div class="n">puri</div>
@@ -29,4 +30,4 @@ function religious() {
   );
 }
 
-export default religious;
+export default Religious;

@@ -1,0 +1,55 @@
+
+    div.f{background-image:url("beach.png") ;
+       
+
+    }
+    div.w{ border-top: 2px;
+    border-color: aquamarine;
+    border-left: 20px;
+    font-size: x-large;
+    border: 3px solid black;
+    padding-left: 250px;
+    padding-top: 200px;
+    margin-left: 400px;
+        margin-right: 400px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+        div.x{ border-top: 10px;
+            border-color: aquamarine;
+            border-left: 20px;
+            font-size: x-large;
+            border: 3px solid black;
+            padding-left: 250px;
+            padding-top: 50px;
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 100px;
+            margin-bottom: 40px;}
+            
+            div.y{ border-top: 10px;
+                border-color: aquamarine;
+                border-left: 20px;
+                font-size: x-large;
+                border: 3px solid black;
+                padding-left: 250px;
+                padding-top: 50px;
+                margin-left: 200px;
+                margin-right: 200px;
+                margin-top: 100px;
+                margin-bottom: 40px;}
+                div.z{ border-top: 10px;
+                    border-color: aquamarine;
+                    border-left: 20px;
+                    font-size: x-large;
+                    border: 3px solid black;
+                    padding-left: 250px;
+                    padding-top: 50px;
+                    margin-left: 200px;
+                    margin-right: 200px;
+                    margin-top: 100px;
+        margin-bottom: 40px;
+                }

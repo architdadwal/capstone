@@ -1,25 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./mountains.css";
 
 function Mountains() {
   return (
     <>
-      <div>
+      <div class="g">
         <p> If you are a mountain lover we have a lot for you </p>
         <h1> Select any one of the recommended places</h1>
 
         <Link to={"/manali"}>
-          <div class="1">manali</div>
+          <div class="h">manali</div>
         </Link>
 
         <Link to={"/kasol"}>
-          <div class="2">kasol</div>
+          <div class="j">kasol</div>
         </Link>
         <Link to={"/bir"}>
-          <div class="3">bir</div>
+          <div class="k">bir</div>
         </Link>
-        <Link to={"/bir"}>
-          <div class="4">bir</div>
+        <Link to={"/kalpa"}>
+          <div class="l">kalpa</div>
         </Link>
       </div>
     </>

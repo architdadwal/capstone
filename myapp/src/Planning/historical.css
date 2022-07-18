@@ -1,0 +1,55 @@
+
+    div.xx{background-image:url("history.png") ;
+       
+
+    }
+    div.hh{ border-top: 2px;
+    border-color: aquamarine;
+    border-left: 20px;
+    font-size: x-large;
+    border: 3px solid black;
+    padding-left: 250px;
+    padding-top: 200px;
+    margin-left: 400px;
+        margin-right: 400px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    div.jj{ border-top: 10px;
+        border-color: aquamarine;
+        border-left: 20px;
+        font-size: x-large;
+        border: 3px solid black;
+        padding-left: 250px;
+        padding-top: 200px;
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-top: 100px;
+        margin-bottom: 40px;}
+        div.kk{ border-top: 10px;
+            border-color: aquamarine;
+            border-left: 20px;
+            font-size: x-large;
+            border: 3px solid black;
+            padding-left: 250px;
+            padding-top: 200px;
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-top: 100px;
+            margin-bottom: 40px;}
+            
+            div.ll{ border-top: 10px;
+                border-color: aquamarine;
+                border-left: 20px;
+                font-size: x-large;
+                border: 3px solid rgb(0, 0, 0);
+                padding-left: 250px;
+                padding-top: 200px;
+                margin-left: 400px;
+                margin-right: 400px;
+                margin-top: 100px;
+                margin-bottom: 40px;}
+     

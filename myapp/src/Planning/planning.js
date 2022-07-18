@@ -8,6 +8,9 @@ export default function Planning() {
     <>
       <Routes>
         <Route path="/planning" element={<mountains />} />
+        <Route path="/planning" element={<historical />} />
+        <Route path="/planning" element={<religious />} />
+        <Route path="/planning" element={<beaches />} />
       </Routes>
       <div class="a">
         <p>Please select the type of traveler you are</p>
@@ -20,8 +23,8 @@ export default function Planning() {
         <Link to={"/religious"}>
           <div class="d">Religious yatri </div>
         </Link>
-        <Link to={"/party"}>
-          <div class="e">beach lover</div>
+        <Link to={"/beaches"}>
+          <div class="e">Beaches </div>
         </Link>
       </div>
     </>
