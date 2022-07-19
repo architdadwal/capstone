@@ -9,8 +9,11 @@ import AboutUs from "./AboutUs/AboutUs";
 import Home from "./Home/Home";
 import Planning from "./Planning/planning";
 import SignIn from "./SignIn/SignIn";
+//planning components here
 import Mountains from "./Planning/Mountains";
-
+import Historical from "./Planning/Historical";
+import Religious from "./Planning/Religious";
+import Beaches from "./Planning/Beaches";
 // import {BrowserRouter} from 'react-router-dom';
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/SignIn" element={<SignIn />} />
           <Route path="/mountains" element={<Mountains />} />
+          <Route path="/Historical" element={<Historical />} />
+          <Route path="/Religious" element={<Religious />} />
+          <Route path="/Beaches" element={<Beaches />} />
         </Routes>
       </BrowserRouter>
       
