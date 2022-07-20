@@ -9,6 +9,8 @@ import AboutUs from "./AboutUs/AboutUs";
 import Home from "./Home/Home";
 import Planning from "./Planning/planning";
 import SignIn from "./SignIn/SignIn";
+import Register from "./SignIn/Registration";
+
 
 // import {BrowserRouter} from 'react-router-dom';
 function App() {
@@ -23,6 +25,7 @@ function App() {
           <Route path="/Attraction" element={<Attraction />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/SignIn" element={<SignIn />} />
+          <Route path="/Register" element={<SignIn />} />
           <Route path="/planning/mountain" element={<mountains />} />
         </Routes>
       </BrowserRouter>
