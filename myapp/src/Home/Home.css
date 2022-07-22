@@ -1,0 +1,19 @@
+
+
+.component{
+   
+    display:flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    column-gap: 60px;
+    border-radius: 50%;
+   
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
+   
+}
+.slide-container{
+  align-items: center;
+  margin: 30px;
+  border-radius: 10%;
+}
