@@ -1,7 +1,9 @@
 div.a{ font-size: large;
 background-color: rgb(255, 255, 255);
 background-color: bisque;
-background-image : url("background.png")
+background-image : url("background.png");
+display: flex;
+     flex-wrap: wrap;
 }
 div.b{ border-top: 2px;
 border-color: aquamarine;
