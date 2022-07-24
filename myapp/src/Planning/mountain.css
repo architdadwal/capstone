@@ -1,0 +1,14 @@
+div.place-list{
+
+   
+    display: flex;
+    flex-wrap:inherit;   
+ 
+   gap: 100px;
+   margin: 100px auto;
+   justify-content: center;
+   align-items:center;
+   width:300px;
+   height:150px;
+    background-color: rgb(17, 85, 85);
+}
