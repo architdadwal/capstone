@@ -135,7 +135,7 @@ li {
 
 /* hero section   */
 .hero-section {
-  height: 0;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
