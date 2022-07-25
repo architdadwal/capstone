@@ -10,7 +10,8 @@ export default function Beachplaces(props) {
       <h1>place description</h1>
       <h3>{place.title}</h3>
       <p>{place.description}</p>
-      <img alt={place.title} src={place.image} width={300} />
+      <img alt={place.title} src={place.image} width={600} />
+      <h1> Stays </h1>
     </div>
   );
 }
