@@ -50,6 +50,7 @@ export default mountains;*/
 // }
 
 import { Link, useLocation } from "react-router-dom";
+import "./mountain.css";
 
 export const places = [
   {
@@ -63,36 +64,39 @@ export const places = [
   {
     id: 2,
     title: "Kasol",
-    price: "Rs 30000",
+
     image:
-      "https://i.pinimg.com/originals/d3/45/11/d3451114ab4e1d55ead624930bcff60c.jpg",
-    image1:
-      "https://i.pinimg.com/originals/d3/45/11/d3451114ab4e1d55ead624930bcff60c.jpg",
-    description: "Mini israel",
+      "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/05/Trip-to-Kasol-A-memory-to-fill-your-adventure-wall-Tosh.webp",
+
+    description:
+      "Kasol is a hamlet in the Kullu district of the Indian state of Himachal Pradesh.[3][4] It is situated in Parvati Valley, on the banks of the Parvati River, on the way between Bhuntar and Manikaran. It is located 30 km (19 mi) from Bhuntar[5] and 36 km (22 mi) from Kullu town, the district headquarter, 3.5 km from Manikaran.↵Kasol is the Himalayan hotspot for backpackers[6] and acts as a base for nearby treks to Malana and Kheerganga. It is called Mini Israel of India due to a high percentage of Israeli tourists here",
   },
   {
     id: 3,
     title: "Narakanda",
 
     image:
-      "https://i.pinimg.com/originals/d3/45/11/d3451114ab4e1d55ead624930bcff60c.jpg",
-    description: "Perfect hill top area",
+      "https://shimlatourism.co.in/images/places-to-visit/headers/narkanda-near-shimla-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+    description:
+      "Narkanda is a town and a nagar panchayat in Kumarsain subdivision of Shimla district in the Indian state of Himachal Pradesh. It is at an elevation of 2708 meters on the Hindustan-Tibet Road (NH 5) in Himachal Pradesh, India within a fir (abies pindrow) forest. It is about 60 km away from Shimla and surrounded by the Himalayan Range.It is a skiing resort in winter. It connects Shimla with Kumarsain and Rampur and a detour also goes to Kotgarh-Thanedhar, the prime apple belt of Himachal Pradesh where Satyananda Stokes started the apple culture.",
   },
   {
     id: 4,
     title: " Bir",
 
     image:
-      "https://i.pinimg.com/originals/d3/45/11/d3451114ab4e1d55ead624930bcff60c.jpg",
-    description: "Indias top paragliding destination",
+      "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQaV6HZgCcuV2cM0vDO0PPi318Tgtz93fOEAA7HGrNZMuXBVFcxQp_wjAccThkhQpXg",
+    description:
+      "Bir is a rural village located in the west of Joginder Nagar Valley in the state of Himachal Pradesh in northern India. It is also the location of the Bir Tibetan Colony, founded in the early 1960s as a settlement for Tibetan refugees after the 1959 Tibetan uprising.Bir is noted for several Tibetan Buddhist monasteries and supportive centers of the Nyingma school, the Karma Kagyu school, and the Sakya school, located either in the town of Bir or nearby. A large stupa is also located in Bir. Ecotourism, spiritual studies, and meditation draws visitors.",
   },
   {
     id: 5,
     title: "Keylong",
 
     image:
-      "https://i.pinimg.com/originals/d3/45/11/d3451114ab4e1d55ead624930bcff60c.jpg",
-    description: "Keylong is a beautiful place",
+      "https://images.thrillophilia.com/image/upload/s--3RYDLFh3--/c_fill,g_auto,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/000/526/original/1549292137_shutterstock_606258098.jpg.jpg",
+    description:
+      "Kyelang (or Keylong) is a town and the administrative centre of the Lahaul and Spiti district in the Indian state of Himachal Pradesh, 71 kilometres (44 mi) north of Manali via Atal Tunnel and 120 km (75 mi) from the Indo-Tibetan border. It is located along the Manali-Leh Highway, about 7 km (4+1⁄2 mi) northeast of intersection of the Chandra, Bhaga, and Chenab valleys, on the banks of Bhaga River.",
   },
 ];
 

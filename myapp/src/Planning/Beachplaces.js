@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { places } from "./beaches";
+import { places } from "./Beaches";
 
 export default function Beachplaces(props) {
   const params = useParams();

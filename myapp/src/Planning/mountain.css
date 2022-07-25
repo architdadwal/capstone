@@ -12,3 +12,6 @@ div.place-list{
    height:150px;
     background-color: rgb(17, 85, 85);
 }
+.hero-section {
+    height: 0;
+}
