@@ -11,6 +11,8 @@ export default function Historicalplaces(props) {
       <h3>{place.title}</h3>
       <p>{place.description}</p>
       <img alt={place.title} src={place.image} width={300} />
+
+      <h1> Stays </h1>
     </div>
   );
 }
