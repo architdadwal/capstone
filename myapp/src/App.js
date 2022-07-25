@@ -22,7 +22,7 @@ import Historicalplaces from "./Planning/Historicalplaces";
 import Religiousplaces from "./Planning/Religiousplaces";
 import Historical from "./Planning/historical";
 import Religious from "./Planning/religious";
-import Beaches from "./Planning/beaches";
+import Beaches from "./Planning/Beaches";
 
 // import {BrowserRouter} from 'react-router-dom';
 function App() {
