@@ -1,7 +1,7 @@
 import React from "react";
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "./Home.css";
 
@@ -25,7 +25,7 @@ const Destination = [
     id: 1,
     url: "https://cdn.discordapp.com/attachments/947918952338706462/998649128584224789/unknown.png",
     service: "Ladhakh",
-    path: "/store",
+    path: "/",
   },
   {
     id: 2,
@@ -67,14 +67,15 @@ function Home() {
           ))}
         </Slide>
       </div>
+      <h1 style={{textAlign:"center",}}>Most Visited places</h1>
       <div className="component">
         {Destination.map((data, index) => {
           return (
-            <Link to={data.path} key={index}>
+            // <Link to={data.path} key={index}>
               <div className="dist">
                 <img
                   src={data.url}
-                  style={{ height: "300px", width: "300px" }}
+                  style={{ height: "300px", width: "300px" ,borderRadius:"10%" }}
                   alt="Category"
                 />
                 <h1
@@ -88,7 +89,7 @@ function Home() {
                   {data.service}
                 </h1>
               </div>
-            </Link>
+            // </Link>
           );
         })}
       </div>
