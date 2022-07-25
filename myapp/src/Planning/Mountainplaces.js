@@ -30,10 +30,9 @@ export default function Mountainplaces(props) {
       <h1>place description</h1>
       <h3>{place.title}</h3>
       <p className="desc">{place.description} </p>
-      <img alt={place.title} src={place.image} width={300} />
-      <div>
-        <img alt={place.title} src={place.image1} width={600} />
-      </div>
+      <img alt={place.title} src={place.image} width={600} />
+
+      <h1> Stays </h1>
     </div>
   );
 }
