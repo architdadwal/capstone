@@ -3,6 +3,7 @@ import "./Activity.css";
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
 import { Link } from "react-router-dom";
+import {data} from "./data";
 
 const slideImages = [
   {
@@ -23,40 +24,6 @@ const slideImages = [
   },
 ];
 
-const Destination = [
-  {
-    id: 1,
-    url: "https://cdn.pixabay.com/photo/2022/01/12/16/05/paragliding-6933278_960_720.jpg",
-    service: "Paragliding",
-    path: "/rescue",
-  },
-  {
-    id: 2,
-    url: "https://www.thrillophilia.com/blog/wp-content/uploads/2015/01/Waterwalk.jpg",
-    service: "Under water walk",
-    path: "/adoption",
-  },
-  {
-    id: 3,
-    url: "https://www.raftingbali.net/wp-content/uploads/2012/11/Water-Rafting-Bali-Feature-Imageg.jpg",
-    service: "Rafting",
-    path: "/vet",
-  },
-  {
-    id: 4,
-    url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/3a/26/c0/caption.jpg?w=1200&h=-1&s=1",
-    service: "Bungee Jumping",
-    path: "/store",
-  },
-  
-  {
-    id: 5,
-    url: "https://www.newframe.com/wp-content/uploads/2022/01/Arif-Khan-scaled.jpg",
-    service: "Skiing",
-    path: "/store",
-  },
-  
-];
 
 function Activity() {
   return (
@@ -78,13 +45,13 @@ function Activity() {
         </Slide>
       </div>
       <div className="component">
-        {Destination.map((data, index) => {
+        {data.map((data, index) => {
           return (
-            <Link to={data.path} key={index}>
+            <Link to={`/Activity/${data.id}`} key={index}>
               <div className="dist">
                 <img
-                  src={data.url}
-                  style={{ height: "300px", width: "300px" }}
+                  src={data.imgURL}
+                  style={{ height: "300px", width: "300px",borderRadius:"10%"}}
                   alt="Category"
                 />
                 <h1
@@ -95,7 +62,7 @@ function Activity() {
                     color: "black",
                   }}
                 >
-                  {data.service}
+                  {data.Activity}
                 </h1>
               </div>
             </Link>

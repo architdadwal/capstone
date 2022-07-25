@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+// import { Input } from "@material-ui/core";
+import Searchbar from "./Searchbar";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -37,6 +39,20 @@ function Navbar() {
             </li>
           </ul>
         </div>
+        {/* <Input
+          placeholder="🔍  Search"
+          style={{
+            alignContent: "center",
+            alignItems: "center",
+            width: "200px",
+            height: "50px",
+            fontSize: "20px",
+            border: "px",
+            marginLeft: "200px",
+          }}
+        /> */}
+
+        <Searchbar/>
       </nav>
     </>
   );

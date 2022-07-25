@@ -5,10 +5,13 @@ background-color: #007185;
 display: flex;
 align-items: center;
 flex-direction: row;
+
 }
 .menu-link{
  flex-direction: row;
  display: inline;
+ color:white;
+ text-decoration: none;
 }
 li{
   display:inline;
@@ -17,4 +20,8 @@ li{
   text-align:  center;
 margin-left: 50px;
 color:white;
+
+}
+.logo{
+  margin-left: 10px;
 }

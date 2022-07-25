@@ -25,26 +25,27 @@ const Destination = [
     id: 1,
     url: "https://cdn.discordapp.com/attachments/947918952338706462/998649128584224789/unknown.png",
     service: "Ladhakh",
-    path: "/rescue",
+    path: "/store",
   },
   {
     id: 2,
     url: "https://cdn.discordapp.com/attachments/947918952338706462/998646725701021820/unknown.png",
     service: "Goa",
-    path: "/adoption",
+    path: "/",
   },
   {
     id: 3,
     url: "https://cdn.discordapp.com/attachments/947918952338706462/998649423489929256/unknown.png",
     service: "kedarnath",
-    path: "/vet",
+    path: "/",
   },
   {
     id: 4,
     url: "https://cdn.discordapp.com/attachments/947918952338706462/998650965219622912/unknown.png",
     service: "Shimla",
-    path: "/store",
+    path: "/",
   },
+  
 ];
 
 function Home() {
@@ -96,3 +97,6 @@ function Home() {
 }
 
 export default Home;
+
+
+
