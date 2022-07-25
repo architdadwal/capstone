@@ -3,7 +3,7 @@ import "./Booking.css";
 function Booking(props) {
   return (
     <div className="formInput">
-      <label> username</label>
+      {/* <label>{props.name} :</label> */}
       <input name={props.name}
         placeholder={props.placeholder}
         onChange={(e) => props.setUsername(e.target.value)}

@@ -1,4 +1,18 @@
 .formInput{
     padding: 10px;
-    margin: 10px 0px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+form{
+  width: 250px;
+  background-color: lightslategrey;
+  border-radius: 10px;
 }

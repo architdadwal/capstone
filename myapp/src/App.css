@@ -36,14 +36,3 @@
     transform: rotate(360deg);
   }
 }
-.input{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height:100vh ;
-
-}
-form{
-  background-color: lightslategrey;
-  border-radius: 10px;
-}
