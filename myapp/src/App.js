@@ -18,6 +18,7 @@ import Religiousplaces from "./Planning/Religiousplaces";
 import Historical from "./Planning/historical";
 import Religious from "./Planning/religious";
 import Beaches from "./Planning/Beaches";
+import Hotels from "./Planning/Hotels";
 
 // import {BrowserRouter} from 'react-router-dom';
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route path="/beaches/:id" element={<Beachplaces />} />
           <Route path="/historical/:id" element={<Historicalplaces />} />
           <Route path="/religious/:id" element={<Religiousplaces />} />
+          <Route path="/Hotels" element={<Hotels />} />
         </Routes>
       </BrowserRouter>
       {/* <BrowserRouter> */}

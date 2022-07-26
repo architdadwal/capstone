@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 //import React, { useState } from "react";
 
 import { places } from "./mountains";
@@ -33,6 +33,13 @@ export default function Mountainplaces(props) {
       <img alt={place.title} src={place.image} width={600} />
 
       <h1> Stays </h1>
+      <h2> We have a huge collection of stays all over india .</h2>
+
+      <Link to={"/hotels"}>
+        <h3>
+          <button>click to see stay options</button>
+        </h3>
+      </Link>
     </div>
   );
 }
