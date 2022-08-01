@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+// import { Input } from "@material-ui/core";
+import Searchbar from "./Searchbar";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -16,27 +18,41 @@ function Navbar() {
         {/* second logo part */}
 
         <div className="menu-link">
-          <ul>
+          <ul >
             <li>
-              <Link to={"/"}>Home</Link>
+              <Link to={"/"}style={{color:"white",textDecoration:"none",cursor:"pointer"}}>Home</Link>
             </li>
             <li>
-              <Link to="/Planning">Planning</Link>
+              <Link to="/Planning"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>Planning</Link>
             </li>
             <li>
-              <Link to="/Attraction">Attractions</Link>
+              <Link to="/Activity"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>Activity</Link>
             </li>
             <li>
-              <Link to="/TravelBlogs">TravelBlogs</Link>
+              <Link to="/TravelBlogs"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>TravelBlogs</Link>
             </li>
             <li>
-              <Link to="/AboutUs">About us</Link>
+              <Link to="/AboutUs"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>About us</Link>
             </li>
             <li>
-              <Link to="/Signin">SignIn</Link>
+              <Link to="/Signin"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>SignIn</Link>
             </li>
           </ul>
         </div>
+        {/* <Input
+          placeholder="🔍  Search"
+          style={{
+            alignContent: "center",
+            alignItems: "center",
+            width: "200px",
+            height: "50px",
+            fontSize: "20px",
+            border: "px",
+            marginLeft: "200px",
+          }}
+        /> */}
+
+        <Searchbar/>
       </nav>
     </>
   );
