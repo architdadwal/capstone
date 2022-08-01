@@ -71,7 +71,7 @@ function Home() {
       <div className="component">
         {Destination.map((data, index) => {
           return (
-            // <Link to={data.path} key={index}>
+          
               <div className="dist">
                 <img
                   src={data.url}

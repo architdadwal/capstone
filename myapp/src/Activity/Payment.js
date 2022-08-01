@@ -10,9 +10,7 @@ import {
   } from "./Styling";
   
   import StripeCheckout from "react-stripe-checkout";
- 
- 
-  
+
   function ConfirmBooking() {
     function handleToken(token, addresses) {
       console.log({ token, addresses });

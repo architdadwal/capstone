@@ -18,41 +18,83 @@ function Navbar() {
         {/* second logo part */}
 
         <div className="menu-link">
-          <ul >
+          <ul>
             <li>
-              <Link to={"/"}style={{color:"white",textDecoration:"none",cursor:"pointer"}}>Home</Link>
+              <Link
+                to={"/"}
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/Planning"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>Planning</Link>
+              <Link
+                to="/Planning"
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                Planning
+              </Link>
             </li>
             <li>
-              <Link to="/Activity"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>Activity</Link>
+              <Link
+                to="/Activity"
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                Activity
+              </Link>
             </li>
             <li>
-              <Link to="/TravelBlogs"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>TravelBlogs</Link>
+              <Link
+                to="/TravelBlogs"
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                TravelBlogs
+              </Link>
             </li>
             <li>
-              <Link to="/AboutUs"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>About us</Link>
+              <Link
+                to="/AboutUs"
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                About us
+              </Link>
             </li>
             <li>
-              <Link to="/Signin"style={{color:"white",textDecoration:"none",cursor:"pointer"}}>SignIn</Link>
+              <Link
+                to="/Signin"
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                SignIn
+              </Link>
             </li>
           </ul>
         </div>
-        {/* <Input
-          placeholder="🔍  Search"
-          style={{
-            alignContent: "center",
-            alignItems: "center",
-            width: "200px",
-            height: "50px",
-            fontSize: "20px",
-            border: "px",
-            marginLeft: "200px",
-          }}
-        /> */}
 
-        <Searchbar/>
+        <Searchbar />
       </nav>
     </>
   );

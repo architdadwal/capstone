@@ -23,6 +23,7 @@ import Religiousplaces from "./Planning/Religiousplaces";
 import Historical from "./Planning/historical";
 import Religious from "./Planning/religious";
 import Beaches from "./Planning/Beaches";
+import { ActivityDetails } from "./Activity/ActivityDetails";
 // import Payment from "@material-ui/icons";
 
 // import {BrowserRouter} from 'react-router-dom';
@@ -34,7 +35,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/planning" element={<Planning />} />
-
           <Route path="/TravelBlogs" element={<TravelBlogs />} />
           <Route path="/Activity" element={<Activity />} />
           <Route path="/Activity/:id" element={<Cities />} />
@@ -47,6 +47,7 @@ function App() {
           <Route path="/Historical" element={<Historical />} />
           <Route path="/Religious" element={<Religious />} />
           <Route path="/Beaches" element={<Beaches />} />
+          <Route path="/ActivityDetails" element={<ActivityDetails />} />
           <Route path="/mountains/:id" element={<Mountainplaces />} />
           <Route path="/beaches/:id" element={<Beachplaces />} />
           <Route path="/historical/:id" element={<Historicalplaces />} />
