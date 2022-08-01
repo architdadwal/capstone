@@ -49,7 +49,7 @@ export default function Planning() {
             alt="new"
             width={300}
           />
-          <h3>If you love sunsets on the beaches , click here</h3>
+          <h3>If you love sunsets on the beaches , then click here</h3>
         </Link>
       </div>
     </>
