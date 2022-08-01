@@ -23,8 +23,13 @@ import Religiousplaces from "./Planning/Religiousplaces";
 import Historical from "./Planning/historical";
 import Religious from "./Planning/religious";
 import Beaches from "./Planning/Beaches";
+<<<<<<< HEAD
 import { ActivityDetails } from "./Activity/ActivityDetails";
+=======
+import Hotels from "./Planning/Hotels";
+>>>>>>> 3c7fc35d2086cd278fc4db36c952f606a8e6470d
 // import Payment from "@material-ui/icons";
+
 
 // import {BrowserRouter} from 'react-router-dom';
 function App() {
@@ -52,7 +57,11 @@ function App() {
           <Route path="/beaches/:id" element={<Beachplaces />} />
           <Route path="/historical/:id" element={<Historicalplaces />} />
           <Route path="/religious/:id" element={<Religiousplaces />} />
+
+          <Route path="/Hotels" element={<Hotels />} />
+
           <Route path="/payment" element={<Payment />} />
+
         </Routes>
       </BrowserRouter>
       <Footer />

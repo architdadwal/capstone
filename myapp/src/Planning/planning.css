@@ -1,4 +1,4 @@
-div.a{ font-size: large;
+/* div.a{ font-size: large;
 
 background-color: rgb(255, 255, 255);
 background-color: bisque;
@@ -68,4 +68,9 @@ div.c{ border-top: 2px;
                 }
     .hero-section {
         height: 0;
-    }
+    } */
+div.a{
+
+    display: flex;
+    justify-content: space-between; 
+}
